@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-
-
+import {ThemeProvider} from 'styled-components'
+import { theme } from "./themes/theme"
 ReactDOM.render(
-  <React.StrictMode>
+	<ThemeProvider theme={theme}>
     <App />
-  </React.StrictMode>,
+  </ThemeProvider>
+  ,
   document.getElementById('root')
 );
 
