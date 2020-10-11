@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-
+import Typewriter from "typewriter-effect";
 
 const MyTitleMessage = styled.h1`
   position: absolute;
