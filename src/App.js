@@ -8,8 +8,6 @@ const App = () => {
     <div >
       <MyNavbar/>
       <MyCarousal/>
-      
-      My Portfolio
     </div>
   );
 }
