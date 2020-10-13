@@ -29,7 +29,7 @@ const About = () => {
                 <Row>
                 <Col className="d-flex justify-content-center flex-wrap">
                  <div>
-                    <a href="mailto:vibhor.formal@gmail.com">
+                    <a href="#contact">
                       <Button className="m-2" variant="outline-primary">
                         Let's talk
                       </Button>
@@ -37,7 +37,7 @@ const About = () => {
                   </div>
                   <div>
                     <a >
-                      <Button className="m-2" variant="outline-success">
+                      <Button href="https://drive.google.com/file/d/1vKtlRsDGvHeKdtOKPq1VvA2ZPcWTcwwB/view?usp=sharing"className="m-2" variant="outline-success">
                         My Resume
                       </Button>
                     </a>
