@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@merc/react-timeline": "^0.1.42",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -12,6 +13,7 @@
     "react-dom": "^16.13.1",
     "react-paralax": "^1.0.0",
     "react-parallax": "^3.0.3",
+    "react-particles-js": "^3.3.0",
     "react-reveal": "^1.2.2",
     "react-scripts": "3.4.3",
     "react-tilt": "^0.1.4",

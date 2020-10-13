@@ -10,6 +10,10 @@ import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container";
 import Skills from './pages/skills/skills.component';
 import Experience from './pages/experience/experience.component';
+import Projects from './components/projects-timeline/projects-timelines.component';
+import Contact from './pages/contact-form/contact-form.component';
+import Footer from './components/footer/footer.component';
+
 const App = () => {
   return (
     <div >
@@ -43,6 +47,26 @@ const App = () => {
           </Container>
        
       </div>
+      <div>
+          <Container className="container-box rounded">
+            <Slide bottom duration={500}>
+            <hr />
+            <Projects/>
+          </Slide>
+          </Container>
+       
+      </div>
+      <div>
+          <Container className="container-box rounded">
+            <Fade duration={500}>
+            <hr />
+            <Contact/>
+          </Fade>
+          </Container>
+       
+      </div>
+      <hr />
+      <Footer/>
     </div>
   );
 }
