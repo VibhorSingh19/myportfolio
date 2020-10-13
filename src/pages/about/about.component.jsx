@@ -22,7 +22,7 @@ const About = () => {
             <Col xs={12} md={6}>
                 <Row className=" align-items-start p-2 my-details rounded">
                  Hi there! I am <strong>&nbsp;Vibhor Singh</strong>
-                <br />A passionate programmer and a Coach, born and brought up in India. I am a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and PostgreSQL as my tech stack.
+                <br />A passionate programmer and a Coach, born and brought up in India. I am a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and PostgreSQL as my tech stack. Finding the opportunity to work in a fun and challenging working environment that will encourage him to improve and learn new and necessary skills and get advance in the software engineering industry.
                 <br />
                 <br />
                 </Row>
