@@ -45,12 +45,6 @@ export const skills = {
       skillName: "JavaScript",
     },
     {
-      link: "https://sass-lang.com/",
-      imgAltText: "Sass",
-      imgSrc: L_SASS,
-      skillName: "Sass",
-    },
-    {
       link: "https://getbootstrap.com/",
       imgAltText: "Bootstrap",
       imgSrc: L_BOOTSTRAP,
@@ -63,18 +57,6 @@ export const skills = {
       skillName: "React JS",
     },
     {
-      link: "https://redux.js.org/",
-      imgAltText: "Redux",
-      imgSrc: L_REDUX,
-      skillName: "Redux",
-    },
-    {
-      link: "https://facebook.github.io/flux/",
-      imgAltText: "Flux",
-      imgSrc: L_FLUX,
-      skillName: "Flux",
-    },
-    {
       link: "https://reacttraining.com/react-router/",
       imgAltText: "React Router",
       imgSrc: L_REACT_ROUTER,
@@ -85,12 +67,6 @@ export const skills = {
       imgAltText: "React Bootstrap",
       imgSrc: L_REACT_BOOTSTRAP,
       skillName: "React Bootstrap",
-    },
-    {
-      link: "https://material-ui.com/",
-      imgAltText: "Material-UI",
-      imgSrc: L_MATERIALUI,
-      skillName: "Material-UI",
     },
   ],
   backend: [
@@ -106,43 +82,14 @@ export const skills = {
       imgSrc: L_EXPRESS,
       skillName: "Express",
     },
-    {
-      link: "https://www.djangoproject.com/",
-      imgAltText: "Django",
-      imgSrc: L_DJANGO,
-      skillName: "Django",
-    },
-    {
-      link: "https://flask.palletsprojects.com/",
-      imgAltText: "Flask",
-      imgSrc: L_FLASK,
-      skillName: "Flask",
-    },
+    
   ],
   hostingPlatforms: [
-    {
-      link: "https://www.heroku.com/",
-      imgAltText: "Heroku",
-      imgSrc: L_HEROKU,
-      skillName: "Heroku",
-    },
-    {
-      link: "https://www.digitalocean.com/",
-      imgAltText: "Digital Ocean",
-      imgSrc: L_DIGITAL_OCEAN,
-      skillName: "Digital Ocean",
-    },
     {
       link: "https://pages.github.com/",
       imgAltText: "GitHub Pages",
       imgSrc: L_GITHUB_PAGES,
       skillName: "GitHub Pages",
-    },
-    {
-      link: "https://www.pythonanywhere.com/",
-      imgAltText: "pythonanywhere",
-      imgSrc: L_PYTHONANYWHERE,
-      skillName: "PythonAnywhere",
     },
   ],
   programmingLanguages: [
@@ -153,22 +100,10 @@ export const skills = {
       skillName: "JavaScript",
     },
     {
-      link: "https://www.typescriptlang.org/",
-      imgAltText: "TypeScript",
-      imgSrc: L_TYPESCRIPT,
-      skillName: "TypeScript",
-    },
-    {
       link: "https://www.python.org/",
       imgAltText: "Python",
       imgSrc: L_PYTHON,
       skillName: "Python",
-    },
-    {
-      link: "https://golang.org/",
-      imgAltText: "Golang",
-      imgSrc: L_GOLANG,
-      skillName: "Golang",
     },
   ],
   databases: [
