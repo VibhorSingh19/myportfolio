@@ -13,15 +13,15 @@ import Experience from './pages/experience/experience.component';
 import Projects from './components/projects-timeline/projects-timelines.component';
 import Contact from './pages/contact-form/contact-form.component';
 import Footer from './components/footer/footer.component';
-import Particles from "react-particles-js";
-import { particlesOptions } from "./particlesOptions";
+//import Particles from "react-particles-js";
+//import { particlesOptions } from "./particlesOptions";
 const App = () => {
   return (
     <div style={{ position: "relative" }}>
       <MyNavbar/>
       <MyCarousal/>
       <TitleMessage/>
-      <Particles className="particles particles-box" params={particlesOptions} />
+      
       <div>
         <Parallax blur={{ min: -1000, max: 1000 }} bgImage={require("./assets/img/parallex/background.webp")} bgImageAlt="" strength={-300}>
           <Container className="container-box rounded">
