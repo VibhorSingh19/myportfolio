@@ -109,12 +109,7 @@ const ProjectTimeline = () => {
                       <Card.Body>
                         <strong>Description:</strong> An app that detects face in a picture.
                         <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Register new user</li>
-                          <li>Signin exiting user</li>
-                          <li>Keep tracks of entries for each user</li>
-                        </ul>
+                        
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
@@ -162,11 +157,8 @@ const ProjectTimeline = () => {
                 <UrlButton href="vibhorsingh19.github.io/smartbrain/" target="_blank">
                   SEE LIVE
                 </UrlButton>
-                <UrlButton href="https://github.com/akjha96/Smart_Brain" target="_blank">
+                <UrlButton href="https://github.com/VibhorSingh19/SmartBrain" target="_blank">
                   SOURCE CODE
-                </UrlButton>
-                <UrlButton href="https://www.youtube.com/watch?v=ZZYSpi_blL0" target="_blank">
-                  WATCH VIDEO
                 </UrlButton>
               </div>
             </div>
