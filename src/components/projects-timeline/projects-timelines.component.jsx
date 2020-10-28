@@ -135,26 +135,14 @@ const ProjectTimeline = () => {
                           </li>
                         </ul>
                         <hr />
-                        <em>
-                          <strong>SignUp/ Signin:</strong>
-                          <br />
-                          <br />
-                          You can <strong>register</strong> as new user or <strong>log in</strong> using the demo account below.
-                          <br />
-                          <br />
-                          <strong>Demo Account Details:</strong>
-                          <br />
-                          email: demo@demo.com
-                          <br />
-                          password: demo
-                        </em>
+                        
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="vibhorsingh19.github.io/smartbrain/" target="_blank">
+                <UrlButton href="https://vibhorsingh19.github.io/SmartBrain/" target="_blank">
                   SEE LIVE
                 </UrlButton>
                 <UrlButton href="https://github.com/VibhorSingh19/SmartBrain" target="_blank">
