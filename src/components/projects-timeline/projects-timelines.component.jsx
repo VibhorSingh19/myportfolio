@@ -30,6 +30,62 @@ const ProjectTimeline = () => {
        <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
+        {/* Project: Smart Brain */}
+          <ImageEvent date="21/01/2020" className="text-center" text="Smart Brain Face Detect app" src={L_SmartBrain} alt="Smart Brain Face Detect">
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> An app that detects face in a picture.
+                        <hr />
+                        
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_REACT} alt="React" rounded className="image-style1 m-1"></Image> React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_NODE_JS} alt="Node.js" rounded className="image-style1 m-1"></Image> Node.js
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_EXPRESS} alt="Express" rounded className="image-style1 m-1"></Image> Express
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_POSTGRESQL} alt="PostgreSQL" rounded className="image-style1 m-1"></Image> PostgreSQL
+                            </span>
+                          </li>
+                        </ul>
+                        <hr />
+                        
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton href="https://vibhorsingh19.github.io/SmartBrain/" target="_blank">
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton href="https://github.com/VibhorSingh19/SmartBrain" target="_blank">
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
         {/* Project: RoboFriends */}
 
           <ImageEvent date="14/01/2020" className="text-center" text="RoboFriends" src={L_RoboFriends} alt="Robo Friends">
@@ -95,62 +151,7 @@ const ProjectTimeline = () => {
               </div>
             </div>
           </ImageEvent>
-          {/* Project: Smart Brain */}
-          <ImageEvent date="21/01/2020" className="text-center" text="Smart Brain Face Detect app" src={L_SmartBrain} alt="Smart Brain Face Detect">
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> An app that detects face in a picture.
-                        <hr />
-                        
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_REACT} alt="React" rounded className="image-style1 m-1"></Image> React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_NODE_JS} alt="Node.js" rounded className="image-style1 m-1"></Image> Node.js
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_EXPRESS} alt="Express" rounded className="image-style1 m-1"></Image> Express
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_POSTGRESQL} alt="PostgreSQL" rounded className="image-style1 m-1"></Image> PostgreSQL
-                            </span>
-                          </li>
-                        </ul>
-                        <hr />
-                        
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://vibhorsingh19.github.io/SmartBrain/" target="_blank">
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton href="https://github.com/VibhorSingh19/SmartBrain" target="_blank">
-                  SOURCE CODE
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
+          
         {/* Project: Secret diary */}
 
           <ImageEvent date="15/12/2019" className="text-center" text="Secret Diary" src={L_ProductHuntClone} alt="Product Hunt Clone">
