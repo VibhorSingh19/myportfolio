@@ -20,18 +20,60 @@ const Experience = () => {
                   <Card.Title className="text-center">Full Stack Developer</Card.Title>
                 </div>
                 <div>
+              
                   <Card.Text className="text-center style">
                     <strong className="body-title-style ">Automated Vending Machine</strong>
                     <br />
+                    <strong>Company: IBM.</strong>
+                    <br />
+                    
                     <strong>Role:</strong> Developer.
                     <br />
-                    <strong>Description:</strong> <strong>Backend Software for a Vending Machine</strong> to perform tasks such as taking and dispensing order as well as promoting clean India Green India by providing various rewards to the customers for recycling order wastes, all in automated manner.
+                    <strong>Description:</strong> <strong>Developing a robust backend with Node.js</strong>  and MySQL.Contribute to the development of REST APIs in Node.js and online learning application with the React
 
                     <br />
                     <strong>Technology:</strong> : MERN STACK (Mongo DB, Express js, React js, Node js)
 
                     <br />
-                    <strong>Duration:</strong> JAN 2020 – Present
+                    <strong>Duration:</strong> 02/2021 - 05/202
+                  </Card.Text>
+                </div>
+              </Card.Body>
+            </Card>
+          </Tilt>
+        </Container>
+      </Jumbotron>
+      {/* Unigov
+Job Description: Developing a social management platform which replicates the institutional 
+activities and provides 360-degree services to an individual on an online platform.
+Creating reusable React Native components and performing bug fixes.
+Duration: June1st, 2021 – July 31st, 2021 */}
+      <Jumbotron className="jumbo-style">
+        <Container>
+          <Tilt options={{ max: 25 }}>
+            <Card>
+              <Card.Body className="d-flex justify-content-center flex-column">
+                <div>
+                  <Card.Title className="text-center">Mobile Application Developer</Card.Title>
+                </div>
+                <div>
+             
+                  <Card.Text className="text-center style">
+                    <strong className="body-title-style ">Unigov Mobile</strong>
+                    <br />
+                    <strong>Company: One For Life</strong>
+                    <br />
+                    
+                    <strong>Role:</strong> Developer.
+                    <br />
+                    <strong>Description:</strong> <strong>Developing a social management platform which replicates the institutional activities</strong> and provides 360-degree services to an individual on an online platform.Creating reusable React Native components and performing bug fixes.
+
+                    <br />
+                    <strong>Technology:</strong> : React Native, Redux, Aws-Amplify.
+
+                    <br />
+                    <strong>Duration:</strong> June 1st, 2021 – July 31st, 2021
+
                   </Card.Text>
                 </div>
               </Card.Body>

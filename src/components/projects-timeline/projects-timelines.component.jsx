@@ -6,7 +6,7 @@ import Card from "react-bootstrap/Card";
 import L_SmartBrain from "../../assets/img/projects/brain.webp";
 import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
 import L_ProductHuntClone from "../../assets/img/projects/SecretDiary.webp";
-
+import L_ChatRoom from "../../assets/img/projects/VChat.webp";
 // skills
 import L_REACT from "../../assets/img/skills/react.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
@@ -22,14 +22,68 @@ import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
 import L_GIT from "../../assets/img/skills/github-api.svg";
 import L_PHP from "../../assets/img/skills/php.svg";
 import L_MYSQL from "../../assets/img/skills/mysql.svg";
-
+import L_FIREBASE from "../../assets/img/skills/firebase.svg";
 import './projects-timelines.style.css';
 const ProjectTimeline = () => {
   return (
     <div id='projects'>
-       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
+       <h1 className="pt-3 text-center font-details-b pb-3">PERSONAL PROJECTS</h1>
       <Timeline>
         <Events>
+        
+         {/* Project: Chat room */}
+
+         <ImageEvent date="15/06/2021" className="text-center" text="Chat Room" src={L_ChatRoom} alt="Chat Room">
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> A Chat Room mobile application Developed in React Native.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Register as new user</li>
+                          <li>Signin as existing user</li>
+                          <li>Have a conversation in the Chat room</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_REACT} alt="React Native" rounded className="image-style1 m-1"></Image> React Native
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_FIREBASE} alt="Fire Base" rounded className="image-style1 m-1"></Image> Firebase
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton href="https://youtu.be/j1PC-WPlpOc" target="_blank">
+                  Watch Video
+                </UrlButton>
+                <UrlButton href="https://github.com/VibhorSingh19/Secret-Diary" target="_blank">
+                  SOURCE CODE
+                </UrlButton>
+                
+              </div>
+            </div>
+          </ImageEvent>
+        
         {/* Project: Smart Brain */}
           <ImageEvent date="21/01/2020" className="text-center" text="Smart Brain Face Detect app" src={L_SmartBrain} alt="Smart Brain Face Detect">
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -87,7 +141,7 @@ const ProjectTimeline = () => {
             </div>
           </ImageEvent>
         {/* Project: RoboFriends */}
-
+           
           <ImageEvent date="14/01/2020" className="text-center" text="RoboFriends" src={L_RoboFriends} alt="Robo Friends">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -219,6 +273,7 @@ const ProjectTimeline = () => {
               </div>
             </div>
           </ImageEvent>
+           
         </Events>
       </Timeline>  
     </div>

@@ -23,6 +23,8 @@ import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import L_GOLANG from "../../assets/img/skills/go-6.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
+import L_JAVA from "../../assets/img/skills/java.svg";
+import L_MONGO from "../../assets/img/skills/mongodb.svg";
 
 export const skills = {
   frontend: [
@@ -68,6 +70,18 @@ export const skills = {
       imgSrc: L_REACT_BOOTSTRAP,
       skillName: "React Bootstrap",
     },
+    {
+      link: "https://reactnative.dev/",
+      imgAltText: "React Native",
+      imgSrc: L_REACT,
+      skillName: "React Native",
+    },
+    {
+      link: "https://redux.js.org/",
+      imgAltText: "Redux",
+      imgSrc: L_REDUX,
+      skillName: "Redux",
+    },
   ],
   backend: [
     {
@@ -91,6 +105,12 @@ export const skills = {
       imgSrc: L_GITHUB_PAGES,
       skillName: "GitHub Pages",
     },
+    {
+      link: "https://www.heroku.com/",
+      imgAltText: "Heroku",
+      imgSrc: L_HEROKU,
+      skillName: "Heroku",
+    },
   ],
   programmingLanguages: [
     {
@@ -105,6 +125,13 @@ export const skills = {
       imgSrc: L_PYTHON,
       skillName: "Python",
     },
+    {
+      link: "https://www.java.com/",
+      imgAltText: "Java",
+      imgSrc: L_JAVA,
+      skillName: "Java",
+    },
+    
   ],
   databases: [
     {
@@ -118,6 +145,12 @@ export const skills = {
       imgAltText: "MS-SQL",
       imgSrc: L_MSSQL,
       skillName: "MS-SQL",
+    },
+    {
+      link: "https://www.mongodb.com",
+      imgAltText: "MongoDb",
+      imgSrc: L_MONGO,
+      skillName: "MongoDb",
     },
   ],
   versionControl: [
